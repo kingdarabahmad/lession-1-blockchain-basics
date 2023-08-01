@@ -19,6 +19,12 @@
 
 --> transaction fee is calculated as: Gas price * Gas Used
 
+--> Base Fee:- the minimum gas price to send your transaction
+
+--> Gas Fee Max: the max price of gas we are willing to pay
+
+---> Max priority fee: the Max gas Price + tip amount we are willing to pay to miners
+
 --> timestamp:--> when txn occurred
 
 ## How blockchain works
@@ -42,4 +48,7 @@ key in order to identify signature is on the txn. then using ECDA algo the the p
 
 ![Screenshot from 2023-08-01 19-12-23](https://github.com/kingdarabahmad/lession-1-blockchain-basics/assets/64286022/29f33083-69ca-47ba-bebf-77a0b441d816)
 
+--> Node: Single instance in a decentraized network
+
+--> Block confirmation: if it is 2 it means that the block our txn are in is 2 blocks ahead of it in the longest chain
 
